@@ -1,0 +1,74 @@
+{
+  "article": {
+    "prefix": "article",
+    "body": [
+      "\\documentclass[dvipdfmx,a4paper,12pt]{jsarticle}",
+      "\\usepackage{amsmath,bm,amsfonts,graphicx}",
+      "\\newcommand{\\bmf}{\\bf\\boldmath}",
+      "\\title{$1}",
+      "\\author{shebang}",
+      "\\date{\\today}",
+      "\\begin{document}",
+      "\t\\maketitle",
+      "\t\\section{$2}",
+      "\t\t$3\n",
+      "\\end{document}"
+    ],
+    "description": "article(jsarticle class) LaTeX template."
+  },
+  "book": {
+    "prefix": "book",
+    "body": [
+      "\\documentclass[dvipdfmx,a4paper,12pt,titlepage]{jbook}",
+      "\\usepackage{amsmath,bm,amsfonts,graphicx}",
+      "\\newcommand{\\bmf}{\\bf\\boldmath}",
+      "\\title{$1}",
+      "\\author{shebang}",
+      "\\date{\\today}",
+      "\\begin{document}",
+      "\t\\maketitle",
+      "\t\\chapter{$2}",
+      "\t\t$3",
+      "\t\t\\section{$4}",
+      "\t\t\t$5\n",
+      "\\end{document}"
+    ],
+    "description": "book(jbook class) LaTeX template."
+  },
+  "report": {
+    "prefix": "report",
+    "body": [
+      "\\documentclass[dvipdfmx,a4paper,12pt]{jreport}",
+      "\\usepackage{amsmath,bm,amsfonts,graphicx}",
+      "\\newcommand{\\bmf}{\\bf\\boldmath}",
+      "\\title{$1}",
+      "\\author{$2}",
+      "\\date{\\today}",
+      "\\begin{document}",
+      "\t\\maketitle",
+      "\t\\chapter{$3}",
+      "\t\t$4",
+      "\t\t\\section{$5}",
+      "\t\t\t$6\n",
+      "\\end{document}"
+    ],
+    "description": "report(jreport class) LaTeX template."
+  },
+  "letter": {
+    "prefix": "letter",
+    "body": [
+      "\\documentclass[dvipdfmx,a4paper,12pt]{letter}",
+      "\\usepackage{amsmath,bm,amsfonts,graphicx}",
+      "\\newcommand{\\bmf}{\\bf\\boldmath}",
+      "\\title{$1}",
+      "\\author{$2}",
+      "\\date{\\today}",
+      "\\begin{document}",
+      "\t\\maketitle",
+      "\t\\section{$3}",
+      "\t\t$4\n",
+      "\\end{document}"
+    ],
+    "description": "letter(letter class) LaTeX template."
+  }
+}

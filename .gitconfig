@@ -1,0 +1,14 @@
+[user]
+	name = shebang
+	email = c19yamamoto@gmail.com
+[core]
+	editor = vim -f
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	sw = switch
+[merge]
+	ff = false
+[pull]
+    ff = only

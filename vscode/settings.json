@@ -1,0 +1,103 @@
+{
+  "latex-workshop.message.update.show": false,
+  "editor.fontFamily": "'Cascadia Code PL',Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "explorer.confirmDelete": false,
+  "remote.SSH.remotePlatform": {
+    "raspi": "linux",
+    "takajo": "linux",
+    "Azure_VM1": "linux",
+    "AWS_VM1": "linux"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "C_Cpp.updateChannel": "Insiders",
+  "editor.renderControlCharacters": true,
+  "latex-workshop.latex.tools": [
+    {
+      "name": "ptex2pdf",
+      "command": "ptex2pdf",
+      "args": [
+        "-interaction=nonstopmode",
+        "-l",
+        "-ot",
+        "-kanji=utf8 -synctex=1",
+        "%DOC%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "ptex2pdf*2",
+      "tools": ["ptex2pdf", "ptex2pdf"]
+    }
+  ],
+  "latex-workshop.latex.autoBuild.run": "onFileChange",
+  "latex-workshop.latex.autoClean.run": "onFailed",
+  "latex-workshop.latex.build.clearLog.everyRecipeStep.enabled": false,
+  "latex-workshop.latex.autoBuild.interval": 0,
+  "latex-workshop.view.pdf.viewer": "tab",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "terminal.integrated.tabs.enabled": true,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true,
+    "html": true,
+    "cpp": false
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[latex]": {
+    "editor.formatOnPaste": true,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.defaultFormatter": "James-Yu.latex-workshop"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "GitHub Dark Default",
+  "editor.formatOnSave": true,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.confirmSync": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "window.menuBarVisibility": "classic",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "arduino.ignoreBoards": [],
+  "arduino.path": "C:\\Program Files (x86)\\arduino-1.8.19",
+  "arduino.commandPath": "arduino_debug.exe",
+  "arduino.logLevel": "info",
+  "arduino.enableUSBDetection": true,
+  "arduino.disableUSBDetection": false,
+  "arduino.skipHeaderProvider": false,
+  "arduino.additionalUrls": [
+    "https://dl.espressif.com/dl/package_esp32_index.json"
+  ],
+  "arduino.defaultBaudRate": 9600
+}
